@@ -10,11 +10,14 @@
 		<script src="js/js1.js"> </script>
 		
 		<script src="js/js2.js"></script>
+			<script src="js/js3.js"></script>
+				<script src="js/js4.js"></script>
 		
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	
 	<body>
+		<div class="js1">
 	<div>
 		number 1: <input type="number" id="number1"><br>
  number 2: <input type="number" id="number2"><br>
@@ -32,6 +35,32 @@
 		<br />
 		<div id="sort"> </div>
 	</div>	
+		<br>
+	<br />
+	<div>
+				word: <input type="text" id="word"><br>
+char: <input type="text" id="charIn" maxlength="1"><br>
+	<button type="button" onclick="howCharInWord()">click me</button>		
+		<br />
+		<div id="howChar"> </div>
+	</div>	
+	
+	</div>
+	
+	<div class="pic">
+		
+		<img src="img/israel.gif" id="Israel"  onload="textOnMouseOver('Israel','textIsrael')"/>
+		<p id="textIsrael"> Israel</p>
+		<img src="img/us.gif"  id="usa" onload="textOnMouseOver('usa','textUsa')"/>
+		<p id="textUsa">usa</p>
+		<img src="img/fr.gif" id="imageFr" onload="textOnMouseOver('imageFr','textFrance')" />
+		<p id="textFrance">france</p>
+		<img src="img/italy.gif" id="imageItaly" onload="textOnMouseOver('imageItaly','textItaly')" />
+		<p id="textItaly">italy</p>
+		<img src="img/netherlands.gif" id="imageNetherlands" onload="textOnMouseOver('imageNetherlands','textNetherlands')" />
+		<p id="textNetherlands">netherlands</p>
+	</div>
+	
 	</body>
 	
 </html>

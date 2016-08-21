@@ -1,0 +1,24 @@
+
+.js1 {
+	
+	float: left;
+}
+
+.pic {
+	
+display: inline-block;
+	width: 100%;
+	background-color:blanchedalmond;
+}
+.pic img{
+	width: 200px;
+}
+.pic p{
+	display: none;
+	position: absolute;
+
+}
+
+
+
+
